@@ -1,0 +1,47 @@
+// kept here just for refenence sake
+
+{
+  "base": "stations",
+  "clouds": { "all": 90 },
+  "cod": 200,
+  "coord": {
+    "lat": 8.5333,
+    "lon": 4.25
+  },
+  "dt": 1716070037,
+  "id": 2350592,
+  "main": {
+    // setTemp(response.main.temp);
+    "feels_like": 30.47,
+    "grnd_level": 973,
+    "humidity": 64,
+    "pressure": 1010,
+    "sea_level": 1010,
+    "temp": 28.33,
+    "temp_max": 28.33,
+    "temp_min": 28.33
+  },
+  "name": "Ogun",
+  "sys": {
+    // setContryCode(response.sys.country);
+    "country": "NG",
+    "sunrise": 1716009823,
+    "sunset": 1716054925
+  },
+  "timezone": 3600,
+  "visibility": 10000,
+  "weather": [
+    {
+      // setWeather(response.weather[0].main);
+      "description": "overcast clouds",
+      "icon": "04n",
+      "id": 804,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 211,
+    "gust": 10.35,
+    "speed": 4.12
+  }
+}
